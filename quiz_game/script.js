@@ -42,6 +42,11 @@ function generateQuestion(number){
     option2Space.textContent = options[number][1];
     option3Space.textContent = options[number][2];
     option4Space.textContent = options[number][3];
+
+    const radioButtons = document.querySelectorAll('input[name="game-options"]');
+    radioButtons.forEach(radio => {
+        radio.checked = false;
+    });
 }
 
 function insertCurrentValues(index){
