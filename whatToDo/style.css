@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: dodgerblue;
+    color: white;
+}
+.head h1{
+    font-size: 75px;
+}
+.head{
+    background-color: antiquewhite;
+    color: black;
+    padding: 1rem;
+}
+.container{
+    background-color: bisque;
+    border-radius: 10px;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+}
+.ctrl-btn{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkolivegreen;
+    color:white;
+}
+.ctrl-elements{
+    width: fit-content;
+    position: relative;
+    left: 58%;
+}
+.ctrl-btn:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+}
+.newTask{
+    border: 2px solid red;
+    padding: 1rem;
+    color: black;
+    margin: 1rem;
+}
