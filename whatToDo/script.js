@@ -59,8 +59,13 @@ newTaskBtn.addEventListener('click', function(){
             let newTitle = prompt("Enter the new title : ");
             let newDescription = prompt("Enter the new description : ");
 
-            editTitle.innerText = newTitle;
-            editDescription.innerText = newDescription;
+            if(newTitle != '' && newDescription != ''){
+                editTitle.innerText = newTitle;
+                editDescription.innerText = newDescription;
+            }
+            else{
+                alert("Title and Desciption cannot be empty.");
+            }
         })
     }
     else{
