@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: rgb(27, 43, 55);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.button-controls button{
+    background-color: rgb(242, 145, 19);
+    color: white;
+    padding: 1rem 1.5rem;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    margin: 1rem 1rem;
+}
+#startBtn{
+    background-color: green;
+}
+#stopBtn{
+    background-color: red;
+}
+#startBtn:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+}
+#stopBtn:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+#resetBtn:hover{
+    background-color: chocolate;
+    cursor: pointer;
+}
+.display-element{
+    height: 15vh;
+    color: white;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.button-controls button:hover{
+    transition: background-color 0.5s;
+}
