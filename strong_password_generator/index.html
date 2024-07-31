@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GetPass</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+    <div class="logo">
+        <h1>Hello There!</h1>
+        <p>You are at the right place, If you are searching for a secure password.</p>
+    </div>
+    <div class="form-container">
+        <form id="preferences">
+            <input type="text" readonly id="display-field">
+            <fieldset>
+                <legend>Select the number of characters</legend>
+                <div>
+                    <input type="radio" value="8" id="8" name="char"> <label for="8">8</label>
+                </div>
+                <div>
+                    <input type="radio" value="10" id="10" name="char">
+                    <label for="10">10</label>
+                </div>
+                <div>
+                    <input type="radio" value="16" id="16" name="char">
+                    <label for="16">16</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Choose other preferences</legend>
+                <div>
+                    <input type="checkbox" value="uppercase" id="uppercase" checked>
+                    <label for="uppercase">Uppercase</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="lowercase" id="lowercase" checked>
+                    <label for="lowercase">Lowercase</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="numbers" id="numbers" checked> <label for="numbers">Numbers</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="special" id="special" checked> <label for="special">Special characters</label>
+                </div>
+            </fieldset>
+            <div id="btn-container">
+                <button id="generate-Btn">Generate Password</button>
+            </div>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+nav{
+    display: flex;
+    background-color: #45ac;
+    color: white;
+    padding: 1rem;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin: 0px 1rem;
+}
+nav ul li:hover{
+    transition: color 0.5;
+    color: aliceblue;
+    cursor: pointer;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: burlywood;
+}
+.logo{
+    margin: 1rem 2rem;
+}
+.logo h1{
+    margin-bottom: 5px;
+}
+.form-container{
+    background-color: white;
+    width: 40vw;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 2rem auto;
+}
+#display-field{
+    width: 100%;
+    border: none;
+    background-color: antiquewhite;
+    font-size: 20px;
+    padding: 0.5rem;
+    font-family: monospace;
+}
+fieldset{
+    padding: 1rem;
+    margin: 0.5rem;
+}
+#generate-Btn{
+    background-color: #45ac;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+}
+#btn-container{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+#generate-Btn:hover{
+    transition: background-color 0.5s;
+    background-color: rgba(35, 53, 142, 0.8);
+    cursor: pointer;
+}
